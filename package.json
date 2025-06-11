@@ -1,0 +1,29 @@
+{
+  "name": "construction-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.57",
+    "@types/react-dom": "^18.2.19",
+    "@types/three": "^0.161.2",
+    "autoprefixer": "^10.4.21",
+    "framer-motion": "^11.18.2",
+    "next": "^13.4.19",
+    "postcss": "^8.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stats.js": "^0.17.0",
+    "tailwindcss": "^3.4.17",
+    "three": "^0.161.0",
+    "typescript": "^5.3.3"
+  }
+}

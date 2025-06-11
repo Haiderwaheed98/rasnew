@@ -9,36 +9,42 @@ const projects = [
     description: 'A state-of-the-art office building with sustainable design features.',
     image: '/projects/office.jpg',
     category: 'Commercial',
+    technologies: ['Steel Frame', 'Glass Facade', 'Smart Systems']
   },
   {
     title: 'Luxury Residential Villa',
     description: 'Custom-designed luxury villa with premium finishes and smart home features.',
     image: '/projects/villa.jpg',
     category: 'Residential',
+    technologies: ['Smart Home', 'Premium Materials', 'Custom Design']
   },
   {
     title: 'Shopping Mall Renovation',
     description: 'Complete renovation of a 50,000 sq ft shopping mall with modern amenities.',
     image: '/projects/mall.jpg',
     category: 'Commercial',
+    technologies: ['Modern Design', 'Energy Efficient', 'Smart Lighting']
   },
   {
     title: 'Eco-Friendly Apartments',
     description: 'Sustainable apartment complex with green building certification.',
     image: '/projects/apartments.jpg',
     category: 'Residential',
+    technologies: ['Solar Power', 'Rainwater Harvesting', 'Green Materials']
   },
   {
     title: 'Industrial Warehouse',
     description: 'Large-scale industrial facility with advanced logistics systems.',
     image: '/projects/warehouse.jpg',
     category: 'Industrial',
+    technologies: ['Advanced Logistics', 'Automation', 'Energy Efficient']
   },
   {
     title: 'Smart Home Development',
     description: 'Community of smart homes with integrated technology solutions.',
     image: '/projects/smart-home.jpg',
     category: 'Residential',
+    technologies: ['IoT Integration', 'Smart Security', 'Energy Management']
   },
 ]
 

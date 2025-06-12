@@ -145,6 +145,29 @@ function HeroSlider() {
       ))}
       <div className="absolute bottom-0 left-0 w-1/4 h-0.5 bg-gradient-to-r from-[#1a365d] via-[#882131] to-transparent animate-gradient-x shadow-[0_0_10px_rgba(136,33,49,0.5)] rounded-r-full"></div>
       <div className="absolute bottom-0 right-0 w-1/4 h-0.5 bg-gradient-to-l from-[#1a365d] via-[#882131] to-transparent animate-gradient-x shadow-[0_0_10px_rgba(136,33,49,0.5)] rounded-l-full"></div>
+
+      {/* Scroll Indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1 }}
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+      >
+        <div className="flex flex-col items-center">
+          <span className="text-white/50 text-sm mb-2">Scroll Down</span>
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity }}
+            className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center"
+          >
+            <motion.div
+              animate={{ y: [0, 12, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity }}
+              className="w-1 h-2 bg-white/50 rounded-full mt-2"
+            />
+          </motion.div>
+        </div>
+      </motion.div>
     </div>
   );
 }
@@ -778,7 +801,7 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
               className="bg-[#882131] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#1a365d] transition-colors duration-300"
             >
-              View All Services
+              <Link href="/services">View All Services</Link>
             </motion.button>
           </div>
         </div>
@@ -1158,7 +1181,7 @@ export default function Home() {
               href="/projects"
               className="inline-block bg-[#882131] text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-[#882131]/90 transition-colors duration-300"
             >
-              View All Projects
+              <Link href="/projects">View All Projects</Link>
             </Link>
           </motion.div>
         </div>

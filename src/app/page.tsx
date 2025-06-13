@@ -131,13 +131,16 @@ function HeroSlider() {
                 <p className="text-lg md:text-xl text-white/80 mb-8">
                   {slide.description}
                 </p>
+              
                 <motion.button
+              
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-[#882131] text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-[#882131]/90 transition-colors duration-300"
                 >
-                  Get Started
+                   Get Started
                 </motion.button>
+                
               </motion.div>
             </div>
           </div>

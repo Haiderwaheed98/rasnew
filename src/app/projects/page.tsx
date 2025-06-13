@@ -46,7 +46,7 @@ const projects = [
     category: 'Commercial',
     technologies: ['Steel Frame', 'Glass Facade', 'Smart Systems', 'LEED Certified','Smart Home'],
     year: '2023',
-    location: 'New York, USA',
+    location: 'Abu Dhabi, UAE',
     size: '50,000 sq ft'
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     category: 'Residential',
     technologies: ['Smart Home', 'Premium Materials', 'Custom Design', 'Solar Integration'],
     year: '2023',
-    location: 'Miami, USA',
+    location: 'Abu Dhabi, UAE',
     size: '8,000 sq ft'
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     category: 'Commercial',
     technologies: ['Modern Design', 'Energy Efficient', 'Smart Lighting', 'Renovation'],
     year: '2022',
-    location: 'Chicago, USA',
+    location: 'Abu Dhabi, UAE',
     size: '200,000 sq ft'
   },
   {
@@ -79,7 +79,7 @@ const projects = [
     category: 'Residential',
     technologies: ['Solar Power', 'Rainwater Harvesting', 'Green Materials', 'Smart Systems'],
     year: '2023',
-    location: 'San Francisco, USA',
+    location: 'Abu Dhabi, UAE',
     size: '100,000 sq ft'
   },
   {
@@ -90,7 +90,7 @@ const projects = [
     category: 'Industrial',
     technologies: ['Advanced Logistics', 'Automation', 'Energy Efficient', 'Smart Systems'],
     year: '2022',
-    location: 'Houston, USA',
+    location: 'Abu Dhabi, UAE',
     size: '150,000 sq ft'
   },
   {
@@ -101,7 +101,7 @@ const projects = [
     category: 'Residential',
     technologies: ['IoT Integration', 'Smart Security', 'Energy Management', 'Custom Design'],
     year: '2023',
-    location: 'Seattle, USA',
+    location: 'Abu Dhabi, UAE',
     size: '75,000 sq ft'
   },
 ]

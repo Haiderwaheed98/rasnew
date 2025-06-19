@@ -56,8 +56,8 @@
 }
 
 .animate-gradient-x {
-  background-size: 200% 100%;
-  animation: gradient-x 3s ease infinite;
+  animation: gradient-x 15s linear infinite;
+  background-size: 200% 200%;
 }
 
 :root {
@@ -86,4 +86,21 @@ body {
   .heading-2 {
     @apply text-3xl md:text-4xl lg:text-5xl font-heading font-bold;
   }
+}
+
+/* Custom Utilities */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Custom Gradients */
+.bg-gradient-radial {
+  background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
 } 
